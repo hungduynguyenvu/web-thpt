@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+    background-color: lightskyblue
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    background-color: lightgray;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0
+    
+}
+
+.logo img{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+    height: 50px;
+}
+
+
+.menu-main{
+    width: 50%;
+}
+
+.menu-main ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.menu-main ul li a{
+    text-decoration: none;
+}
+
+.menu-main ul li{
+    list-style: none;
+}
+
+.menu-main ul li a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+.social{
+    margin-right: 10px;
+}
+
+.social a img{
+    height: 50px;
+}
+
+
+
+.hometitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 20px;
+    height: 0px;
+    z-index: -5;
+}
+
+.hometitle h1{
+    font-size: 70px;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    height: 0px;
+    z-index: -5;
+    margin-bottom: -100px;
+}
+
+.title p{
+    font-size: 24px;
+}
+
+
+
+.hometitle ul li{
+    list-style: none;
+}
+
+.contents{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.content{
+    text-align: center;
+    border:0px solid;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 25px 20px 15px rgba(0,0,0,0.5);
+    background-color: white;
+    transition: transform ease 0.5s;
+}
+.content:hover{
+    
+    transform: scale(1.1);
+    
+}
+.content a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content:hover a{
+    /* color: purple; */
+    text-decoration: underline;
+}
+.content img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 225px;
+}
+
+.content h1{
+    font-size: 20px;
+}
+
+/* .content p{
+    font-weight: bold;
+} */
+
+
+
+
+footer{
+    text-align: center;
+    background-color: white;
+    bottom: 0;
+    position: static;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: gray;
+    
+}
+
+.hinh{
+    /* margin-top: 100px; */
+    display: flex;
+    text-align: center;
+
+}
+
+.hinh img{
+    padding-top: 100px;
+    width: 600px;
+    height: 900px;
+}
+
+
+.hinh h1{
+    margin-top: 100px;
+}
+
+.hinh table{
+    margin-bottom: 160px;
+    width: 800px;
+    border-collapse: collapse;
+}
+
+.hinh th, td{
+    padding: 5px;
+    border: 1px solid rgb(198, 198, 198);
+    text-align: center;
+}
+
+.hinh th{
+    background-color: rgb(0, 255, 0);
+    color: black;
+}
+
+.hinh tr:nth-child(even){
+    background-color: rgb(161, 250, 255);
+
+}
+
+.hinh tr:nth-child(odd){
+    background-color: rgb(77, 246, 255);
+}
+
+.hinh tr:hover{
+    background-color: rgb(0, 187, 255);
+}
+
+.text p{
+    font-size: 24px;
+    text-align: left;
+    text-indent: 20px;
+}
+
+.text{
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.text h1{
+    font-size: 35px;
+    /* color: rgb(82, 8, 63); */
+}
+.text ul{
+    list-style: decimal;
+}
+.text li{
+    font-size: 24px;
+    text-align: left;
+    /* text-indent: 20px; */
+}
+
+.text select{
+    width: 52px;
+}
+
+.text a{
+    margin-top: 25px;
+    background-color: cyan;
+    width: 145px;
+    border-radius: 25px;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    transition: transform ease 0.5s;
+}
+
+
+.text a:hover{
+    transform: scale(1.2);
+}
+
+
+.Info ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+ 
+}
+.Info ul li{
+    font-size: 18px;
+}
+
+.Info h1{
+    color: rgb(58, 2, 44);
+    font-size: 30px;
+}
+
+.chosen{
+    font-weight: bolder;
+}
+
+
